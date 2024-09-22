@@ -5,19 +5,19 @@ import { useState } from "react";
 const CursoSection = () => {
   const [images] = useState([
     {
-      src: "public/images/image 4.webp",
+      src: "images/image 4.webp",
       alt: "Personas sosteniendo hongos ostra grandes",
       width: 340,
       height: 200,
     },
     {
-      src: "public/images/image 6.webp",
+      src: "images/image 6.webp",
       alt: "Invernadero de cultivo de hongos",
       width: 340,
       height: 200,
     },
     {
-      src: "public/images/image 5.webp",
+      src: "images/image 5.webp",
       alt: "Hongos ostra cosechados",
       width: 340,
       height: 200,
@@ -64,7 +64,7 @@ const CursoSection = () => {
                 <p className="text-xs sm:text-sm text-gray-500">Lorem ipsum consectetur</p>
               </div>
             </div> */}
-            <a href="" className="mx-auto text-center block bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300">
+            <a href="https://wa.link/nuuokl" className="mx-auto text-center block bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300">
               Inscríbete ahora →
             </a>
           </div>

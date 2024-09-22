@@ -1,4 +1,3 @@
-// src/components/SmoothScrollProvider.jsx
 
 import React, { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis';
@@ -17,7 +16,7 @@ const SmoothScrollProvider = ({ children }) => {
       smoothWheel: true, // Scroll suave con la rueda del ratón
       smoothTouch: false, // Scroll suave con gestos táctiles (puede ajustarse)
       mouseMultiplier: 1, // Multiplicador para la rueda del ratón
-      touchMultiplier: 2, // Multiplicador para gestos táctiles
+      touchMultiplier: 1, // Multiplicador para gestos táctiles
       infinite: false, // Scroll infinito
     });
 

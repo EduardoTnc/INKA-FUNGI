@@ -11,7 +11,7 @@ const CommunitySection = () => {
           ÚNETE A NUESTRA COMUNIDAD DE{" "}
           <span className="text-green-600">CULTIVADORES</span>
         </h3>
-        <div className="my-8 text-center">
+        {/* <div className="my-8 text-center">
           <a
             href="https://wa.me/tu_numero"
             className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300"
@@ -20,14 +20,14 @@ const CommunitySection = () => {
           >
             Únete a nuestro grupo de WhatsApp
           </a>
-        </div>
+        </div> */}
 
         <div className="bg-black rounded-3xl overflow-hidden shadow-xl">
           <div className="flex flex-col md:flex-row items-center p-6 space-y-4 md:space-y-0">
 
             <div className="w-max md:w-fit md:mr-9 flex justify-center md:p-4">
               <img
-                src="public/images/logo3.png" alt="Inka Fungi Logo"
+                src="images/logo3.png" alt="Inka Fungi Logo"
                 width={230}
                 height={200}
                 className="mb-4"
@@ -41,13 +41,13 @@ const CommunitySection = () => {
               </p>
               <p className="text-white text-lg text-center md:text-left">
                 Comparte tus experiencias, resuelve dudas y recibe contenido
-                exclusivo en nuestro{" "}
+                exclusivo en nuestro <a href="https://wa.link/nuuokl" className="underline text-green-500 decoration-green-500 underline-offset-4">GRUPO DE WHATSAPP</a>.
               </p>
             </div>
 
             <div className="md:w-1/3 flex justify-center">
               <img
-                src="public\images\materialInstructivo.png"
+                src="images\materialInstructivo.png"
                 alt="Instructional Materials"
                 width={300}
                 height={200}
@@ -60,7 +60,7 @@ const CommunitySection = () => {
 
         <div className="mt-8 text-center">
           <a
-            href="https://wa.me/tu_numero"
+            href="https://wa.link/nuuokl"
             className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300"
             target="_blank"
             rel="noopener noreferrer"

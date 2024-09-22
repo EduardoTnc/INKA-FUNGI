@@ -31,10 +31,10 @@ const HeroSection = () => {
 
       <div className="relative z-10">
 
-        <header className="container mx-auto flex items-center justify-between p-4">
+        <header className="container mx-auto flex items-center justify-between p-4 2xl:px-20">
           <img src="/images/logo.png" alt="InkaFungi Logo" width={100} height={100} />
           <nav>
-            <ul className="flex space-x-6 font-averia">
+            <ul className="flex flex-wrap justify-center gap-4 md:gap-12 lg:gap-20 font-averia text-lg">
               <li><a href="/" className="hover:text-gray-300">INICIO</a></li>
               <li><a href="/contacto" className="hover:text-gray-300">CONTACTO</a></li>
               <li><a href="/ubicacion" className="hover:text-gray-300">UBICACIÓN</a></li>
@@ -42,12 +42,12 @@ const HeroSection = () => {
           </nav>
         </header>
 
-        <main className="container mx-auto flex flex-col md:flex-row items-center justify-between py-8 px-4">
+        <main className="container mx-auto flex flex-col md:flex-row items-center justify-between py-8 px-4 2xl:px-20">
           <div className="md:w-1/2  space-y-6">
             <h1 className="font-averia text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
               MEJORA TU BIENESTAR CON LOS HONGOS MÁS SALUDABLES Y DELICIOSOS
             </h1>
-            <a href="/beneficios" className="inline-block bg-white text-gray-900 px-6 py-2 rounded-full hover:bg-gray-200 transition-colors">
+            <a href="https://wa.link/nuuokl" className="inline-block bg-white text-gray-900 px-6 py-2 rounded-full hover:bg-gray-200 transition-colors">
               Descubre sus beneficios →
             </a>
           </div>
@@ -57,8 +57,8 @@ const HeroSection = () => {
           </div>
         </main>
 
-        <section className="container mx-auto py-8 px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <section className="container mx-auto py-8 px-4 2xl:px-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8">
             {heroCards.map((item) => (
               <div key={item.id} className="bg-[#ffffff1a] backdrop-blur-md rounded-lg p-6 flex items-center space-x-4 shadow-md">
                 <img src={`${item.icon}`} alt={`Icon ${item.id}`} width={50} height={50} />
@@ -74,7 +74,7 @@ const HeroSection = () => {
           <p className="text-xl">
             Descubre los beneficios ocultos de los hongos ostra para tu salud.
           </p>
-          <a href="/#descubre" className="text-xl mt-4 inline-block  px-5 py-3 rounded-full hover:bg-slate-200 hover:text-gray-900 transition-colors duration-500">
+          <a href="https://wa.link/nuuokl" className="text-xl mt-4 inline-block  px-5 py-3 rounded-full hover:bg-slate-200 hover:text-gray-900 transition-colors duration-500">
             ↓ 
           </a>
         </footer>

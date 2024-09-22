@@ -59,9 +59,9 @@ const SetasSection = () => {
   }, [setas.length]);
 
   return (
-    <div className="setas-carousel-container">
+    <div className="setas-carousel-container" id='descubre'>
       <div className="center">
-        <div className="top font-averia"><p className='reveal-type'>Setas  Ostra</p></div>
+        <div className="top font-averia"><p className='reveal-type'>Setas  Ostra</p><p className='text reveal-type'>Te invitamos a descubrir la magia de las setas ostra y transformar tus platos con ingrediente que benefician tu bienestar.</p></div>
 
         <div className="carousel" ref={carouselRef}>
 
@@ -86,7 +86,7 @@ const SetasSection = () => {
               >
                 <img src={seta.imgSrc} alt={seta.name} />
 
-                <div className="text-white rounded-2xl p-4 text-center xl:-mt-32 z-10 xl:self-end xl:me-48" style={{ backgroundColor: seta.color }}>
+                <div className="text-white rounded-2xl p-2 sm:p-4 text-center xl:-mt-32 z-10 xl:self-end xl:me-48" style={{ backgroundColor: seta.color }}>
                   <p className="font-bold text-xl mb-2 ">Precios</p>
                   <p className="flex flex-col">{seta.precios.map((precio, index) => (
                     <span key={index} className="">{precio}</span>
