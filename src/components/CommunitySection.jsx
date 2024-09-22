@@ -3,7 +3,7 @@ import React from "react";
 const CommunitySection = () => {
   return (
     <section className="bg-white py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl sm:text-2xl font-bold text-center mb-5">
           ¿Quieres aprender más?<br />↓
         </h2>
@@ -23,9 +23,9 @@ const CommunitySection = () => {
         </div> */}
 
         <div className="bg-black rounded-3xl overflow-hidden shadow-xl">
-          <div className="flex flex-col md:flex-row items-center p-6 space-y-4 md:space-y-0">
+          <div className="flex flex-col md:flex-row items-center justify-center p-6 md:pd-1 space-y-4 md:space-y-0">
 
-            <div className="w-max md:w-fit md:mr-9 flex justify-center md:p-4">
+            <div className="w-max md:w-fit md:mr-9 flex justify-center">
               <img
                 src="images/logo3.png" alt="Inka Fungi Logo"
                 width={230}
