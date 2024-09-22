@@ -22,14 +22,14 @@ const RevealAnimation = () => {
         scrollTrigger: {
           trigger: element,
           start: 'top 80%',
-          end: 'top 20%',
+          end: 'top 50%',
           scrub: true,
           markers: false, // Cambia a true para ver los marcadores de ScrollTrigger
           scroller: 'body', // Asegura que ScrollTrigger use el scroller correcto
           toggleActions: 'play none none reverse',
         },
-        opacity: 0.2,
-        stagger: 0.05, // Ajusta el tiempo entre caracteres
+        opacity: 0,
+        stagger: 1, // Ajusta el tiempo entre caracteres
       });
     });
 

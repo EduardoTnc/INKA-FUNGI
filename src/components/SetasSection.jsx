@@ -62,7 +62,7 @@ const SetasSection = () => {
       if (index >= 0 && index < setas.length) {
         setActiveIndex(index);
       }
-    }, 200); // Ejecuta el handler al menos cada 100ms
+    }, 500); // Ejecuta el handler al menos cada 500ms
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -79,7 +79,7 @@ const SetasSection = () => {
             {setas.map((seta, index) => (
               <div key={seta.id} className="left-item">
                 <div className="title font-averia reveal-type">{seta.name}</div>
-                <div className="text font-poppins"><p className='reveal-type'>{seta.descriptions.map((description, index) => (
+                <div className="text font-poppins"><p className=''>{seta.descriptions.map((description, index) => (
                   <span key={index} className="mt-4 reveal-type">{description}</span>
                 ))} </p>
                 </div>
