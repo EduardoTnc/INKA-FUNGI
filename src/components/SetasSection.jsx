@@ -79,8 +79,8 @@ const SetasSection = () => {
             {setas.map((seta, index) => (
               <div key={seta.id} className="left-item">
                 <div className="title font-averia reveal-type">{seta.name}</div>
-                <div className="text font-poppins"><p className=''>{seta.descriptions.map((description, index) => (
-                  <span key={index} className="mt-4 reveal-type">{description}</span>
+                <div className="text font-poppins"><p className='reveal-type'>{seta.descriptions.map((description, index) => (
+                  <span key={index} className="mt-4">{description}</span>
                 ))} </p>
                 </div>
                 {/* <button className='mt-12  text-white p-2 rounded-2xl' type="button">Ver Más</button> */}
