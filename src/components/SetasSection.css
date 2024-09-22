@@ -2,15 +2,14 @@
 
 .setas-carousel-container {
   width: 100%;
-  min-height: 20vh;
+  min-height: 40vh;
   margin: 0;
   padding: 0;
   background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.63) 4%, rgba(0, 0, 0, 0)11%),
-    url('/images/setas-background.webp') fixed;
+    linear-gradient(to bottom, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0.63) 70%, rgba(0, 0, 0, 0)),
+    url('images/setas-background.webp');
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .center {
@@ -38,7 +37,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  background: url('../images/setas-background.webp') fixed;
+  background: url('images/setas-background.webp') fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
